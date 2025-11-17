@@ -263,49 +263,6 @@ export default function DashboardPage() {
                 )}
               </div>
             </div>
-
-            {/* Last Updates */}
-            <div>
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-xl font-bold text-black">Last Updates</h2>
-                <Link
-                  href="/last-updates"
-                  className="text-black hover:underline text-sm font-semibold"
-                >
-                  View Full Page →
-                </Link>
-              </div>
-              <Dialog>
-                <DialogTrigger asChild>
-                  <div className="border border-black p-4 cursor-pointer hover:bg-gray-50 transition-colors">
-                    <LastUpdates showTitle={false} maxItems={5} />
-                    <div className="mt-3 pt-3 border-t border-gray-200">
-                      <p className="text-sm text-gray-600 text-center">
-                        Click to view all updates →
-                      </p>
-                    </div>
-                  </div>
-                </DialogTrigger>
-                <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
-                  <DialogHeader>
-                    <DialogTitle className="text-2xl font-bold text-black">
-                      Last Updates
-                    </DialogTitle>
-                  </DialogHeader>
-                  <div className="mt-4">
-                    <LastUpdates showTitle={false} />
-                  </div>
-                  <div className="mt-4 pt-4 border-t border-gray-200">
-                    <Link
-                      href="/last-updates"
-                      className="text-sm text-black hover:underline font-semibold"
-                    >
-                      View Full Page →
-                    </Link>
-                  </div>
-                </DialogContent>
-              </Dialog>
-            </div>
           </div>
 
           {/* Sidebar */}
