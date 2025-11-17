@@ -286,7 +286,9 @@ function UploadModal({ labId, onClose }: UploadModalProps) {
     ".go": "go",
     ".rs": "rust",
     ".txt": "text",
-    ".sql": "SQL"
+    ".sql": "SQL",
+    ".html": "HTML",
+    ".css": "CSS",
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {

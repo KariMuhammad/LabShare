@@ -60,7 +60,9 @@ const languageColors: Record<string, string> = {
   go: "bg-cyan-100 text-cyan-800",
   rust: "bg-red-100 text-red-800",
   text: "bg-gray-100 text-gray-800",
-  SQL:"bg-blue-100 text-white-800"
+  SQL:"bg-blue-100 text-white-800",
+  HTML:"bg-orange-100 text-red-800",
+  CSS:"bg-blue-100 text-blue-800",
 };
 
 // Map incoming language strings (from API) to Prism language identifiers
