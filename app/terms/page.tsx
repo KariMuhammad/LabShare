@@ -95,29 +95,23 @@ export default function TermsPage() {
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
                 <li>
-                  <strong>Complete your lab work first:</strong> You must finish each lab assignment 
-                  and have it reviewed by an instructor before accessing other students' submissions.
-                </li>
-                <li>
-                  <strong>Upload your work:</strong> After completing and reviewing with your instructor, 
-                  upload your solution to gain access to other students' work.
+                  <strong>Complete and upload your work:</strong> Finish each lab assignment, have it <strong>reviewed by an instructor</strong>, 
+                  then upload your solution before accessing other students' submissions.
                 </li>
                 <li>
                   <strong>Learn from each other:</strong> Use this platform to learn from your peers' 
                   approaches and solutions, not to copy them.
                 </li>
                 <li>
-                  <strong>Provide constructive feedback:</strong> When viewing others' work, offer 
-                  helpful feedback that contributes to everyone's learning experience.
+                  <strong>Respect everyone:</strong> Maintain a respectful and positive learning environment. 
+                  Sharing feedback is optional but encouraged.
                 </li>
               </ul>
             </div>
 
             <div className="bg-gray-50 border border-gray-300 p-4">
               <p className="text-gray-700 font-medium">
-                By proceeding, you acknowledge that you understand and agree to these terms. 
-                You commit to completing your labs and reviewing them with an instructor before 
-                accessing other students' submissions.
+                By proceeding, you acknowledge that you understand and agree to these terms.
               </p>
             </div>
           </div>
