@@ -278,6 +278,34 @@ export default function DashboardPage() {
                 </p>
               </div>
             </div>
+            <div className="border border-black p-4 mb-4">
+              <h3 className="font-bold text-black mb-4">Open Source</h3>
+              <p className="text-sm text-gray-600 mb-4">
+                This project is open source and anyone can contribute! Help us improve LabShare by contributing code, documentation, or ideas.
+              </p>
+              <a
+                href="https://github.com/TryOmar/LabShare"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-4 py-2 bg-black text-white font-semibold text-center hover:bg-gray-800"
+              >
+                Contribute on GitHub
+              </a>
+            </div>
+            <div className="border border-black p-4 mb-4">
+              <h3 className="font-bold text-black mb-4">Report Issues</h3>
+              <p className="text-sm text-gray-600 mb-4">
+                Found a bug or have a feature request? Feel free to open an issue on GitHub. Your feedback helps us make LabShare better!
+              </p>
+              <a
+                href="https://github.com/TryOmar/LabShare/issues"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-4 py-2 bg-black text-white font-semibold text-center hover:bg-gray-800"
+              >
+                Open an Issue
+              </a>
+            </div>
             <div className="border border-black p-4">
               <h3 className="font-bold text-black mb-4">Need Help?</h3>
               <p className="text-sm text-gray-600 mb-4">
